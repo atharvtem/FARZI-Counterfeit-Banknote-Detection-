@@ -1,28 +1,55 @@
-# FARZI _ Counterfeit Banknote Detection
+# FARZI - Counterfeit Banknote Detection
 
-Detects Counterfeit Indian Currency using Image Processing Techniques
+FARZI is a counterfeit banknote detection system designed to test the authenticity of Indian currency notes. This project utilizes image processing techniques and computer vision algorithms to analyze the input image of a currency bill and provide a final result regarding its authenticity. The entire system is implemented in Python, using Jupyter Notebooks for code execution. Image processing is carried out with the OpenCV library, and the graphical user interface (GUI) is built using the Tkinter library.
 
-## 	Overview
-The aim of this project is to test the authenticity of Indian currency notes by preparing a system which takes the image of currency bill as input and gives the ﬁnal result by applying various image processing and computer vision techniques and algorithms. 
-This currency authentication system has been designed completely using Python language in Jupyter Notebooks. **OpenCV** library has been used for image processing and **Tkinter** library has been used for building the GUI. 
+## Overview
 
-## Libraries and Tools
-1. OpenCV
-2. Tkinter
-3. Numpy
-4. Matplotlib
-5. Jupyter Notebook
+The primary objective of FARZI is to enhance security measures by creating a reliable system for distinguishing between genuine and counterfeit Indian currency notes. By leveraging various image processing and computer vision techniques, the system aims to identify key features and patterns that differentiate authentic bills from fraudulent ones.
 
-## Dataset
-This currency detection currently works only for Indian Currency notes of denomination 500. The dataset used for this purpose is included in this repository and has been custom- built by collecting necessary images from various sources. To know more about dataset refer to the report of this project present in this repository. 
+## Features
 
-## Structure
-1. **Dataset:** Contains all necessary images. This directory also contains images of real 500 rupee notes which you can use to test the system. Read the report to know more about structure of dataset.
-2. **Fake Notes:** Contains images of fake 500 rupee notes. You can use these images to test the system if you want.
-3. **500_testing.ipynb:** This notebook processes input image of 500 denomination currency bills.
-5. **controller.ipynb:** This notebook is the main notebook which takes the input, runs all necessary notebooks and displays the output.
-6. **gui_1.ipynb:** This notebook produces a GUI to take the input data from the user.
-7. **gui_2.ipynb:** This notebook produces a GUI to display the result.
-8. **FAKE_CURRENCY_DETECTOR_REPORT:** Report of this project. This file contains the complete information of the project. Refer to this report file for methodology, snapshots, results and other details regarding this project.
+- **Image Processing Techniques:** FARZI employs a range of image processing techniques to analyze currency bill images, extracting relevant information for further evaluation.
 
+- **Computer Vision Algorithms:** The project utilizes computer vision algorithms to identify unique patterns, textures, and features present in authentic currency notes.
 
+- **Python Implementation:** The entire system is coded in Python, providing flexibility and ease of integration with other projects or systems.
+
+- **Jupyter Notebooks:** The codebase is organized using Jupyter Notebooks, making it easy to understand, modify, and experiment with different algorithms.
+
+- **OpenCV Library:** OpenCV is utilized for its powerful image processing capabilities, facilitating tasks such as edge detection, contour analysis, and feature extraction.
+
+- **Tkinter GUI:** The graphical user interface is developed using the Tkinter library, offering a user-friendly interaction with the counterfeit banknote detection system.
+
+## Usage
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/atharvtem/FARZI-Counterfeit-Banknote-Detection-.git
+    ```
+
+2. Navigate to the project directory.
+
+3. Open the Jupyter Notebooks to explore the code and execute the controller.ipynb.
+
+4. Follow the instructions within the notebooks to input currency bill images and obtain the system's authenticity assessment.
+
+## Screenshots
+
+![WebBrowser Screenshot 1](https://github.com/atharvtem/FARZI-Counterfeit-Banknote-Detection-/blob/main/1.png)
+
+![WebBrowser Screenshot 2](https://github.com/atharvtem/FARZI-Counterfeit-Banknote-Detection-/blob/main/2.png)
+
+## Contributing
+
+Contributions to FARZI are welcome! If you'd like to contribute, please follow these guidelines:
+
+- Fork the repository and create your branch.
+- Make your changes and submit a pull request, clearly describing the changes made and their purpose.
+- Ensure that your code follows the established coding standards.
+
+For bug reports, feature requests, or general feedback, please open an issue on the [issue tracker](https://github.com/your-username/FARZI/issues).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it in accordance with the terms specified in the license.
